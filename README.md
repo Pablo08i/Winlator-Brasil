@@ -39,7 +39,7 @@ For other version of winlator you can run it using `3.3COMPAT`
 - Enabled the `BOX64_DYNAREC_WEAKBARRIER` can improve the performance for 64 bit games
 
 # System requirement for Winlator@Frost
-- `Turnip` - For `Adreno 6xx and 7xx` only at the moment. `Adreno 8xx (8 elite), 720 (7 gen 3), and 710 (7s gen 2, 6 gen 3, 6 gen 1)` are not working. You have to use VirGL if you're using this type of GPU. Turnip `Adreno 735` are still in experimental and it's likely some game might not working and maybe lower fps
+- `Turnip` - For `Adreno 6xx and 7xx` only at the moment. `Adreno 8xx (8 elite, 7s gen 3), 720 (7 gen 3), and 710 (7s gen 2, 6 gen 3, 6 gen 1)` are not working. You have to use VirGL if you're using this type of GPU. Turnip `Adreno 735` are still in experimental and it's likely some game might not working and maybe lower fps
 - `VirGL` - Universal, all chips `like Mediatek, Exynos, Kirin, Unisoc, etc`(include unsupport GPU of turnip adreno like in above)` might work with VirGL but you can only play DX9 games
 - `LLVMPIPE` - Use this if you want to run software apps `(not for game)`
 
