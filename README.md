@@ -10,7 +10,7 @@ Modded by a student 16 years old from Songkhla province, Thailand.
 
 # Installation
 
-1. Download and install the APK (Winlator@Frost 8.0R1 V1.apk) from [GitHub Releases](https://github.com/MrPhryaNikFrosty/Winlator-Frost/releases)
+1. Download and install the APK (Winlator@Frost 8.0R1 V3.apk) from [GitHub Releases](https://github.com/MrPhryaNikFrosty/Winlator-Frost/releases)
 2. Launch the app and wait for the installation process to finish
 3. You can try out our new winlator mod glibc from the latest release
 
@@ -34,29 +34,31 @@ Modded by a student 16 years old from Songkhla province, Thailand.
 	<img src="hide_dxvk_hud.png" width="480" height="240" alt="Winlator-Frost Hide DXVK HUD" />  
 </p>
 
-- If you want to use VirGL in winlator version (7.1), make sure you change the env of `MESA_GL_VERSION_OVERRIDE`from `3.3COMPAT`to `2.1` or `3.1COMPAT`
+- If you want to use VirGL in winlator version (7.1 and newer), make sure you change the env of `MESA_GL_VERSION_OVERRIDE`from `3.3COMPAT`to `2.1` or `3.1COMPAT`
 For other version of winlator you can run it using `3.3COMPAT`
+- Enabled the `BOX64_DYNAREC_WEAKBARRIER` can improve the performance for 64 bit games
 
 # System requirement for Winlator@Frost
-- `Turnip` - For `Adreno 6xx and 7xx` only at the moment. `Adreno 720, 710 and 613` are not working. You have to use VirGL if you're using this GPU. Turnip `Adreno 735`are still in experimental and it's likely some game might not working
-- `VirGL` - Universal, all GPU `like Mediatek, Exynos, Kirin, Unisoc, etc`(include unsupport GPU of turnip adreno like in above)` might work with VirGL but you can only play DX9 games
+- `Turnip` - For `Adreno 6xx and 7xx` only at the moment. `Adreno 8xx (8 elite), 720 (7 gen 3), and 710 (7s gen 2, 6 gen 3, 6 gen 1)` are not working. You have to use VirGL if you're using this type of GPU. Turnip `Adreno 735` are still in experimental and it's likely some game might not working and maybe lower fps
+- `VirGL` - Universal, all chips `like Mediatek, Exynos, Kirin, Unisoc, etc`(include unsupport GPU of turnip adreno like in above)` might work with VirGL but you can only play DX9 games
 - `LLVMPIPE` - Use this if you want to run software apps `(not for game)`
 
 # Known issue in Winlator@Frost
 - ~~Snapdragon 8s gen 3 `Adreno​ 735` container not starting issue~~ (now it's working)
 - ~~Some game in Snapdragon 8 gen 3 may not working or have a performance hit~~ (try change turnip version)
-- Some game have a xinput issue which virtual gamepad are not working
+- ~~Some game have a xinput issue which virtual gamepad are not working~~ (solved by using 8.0)
 - Odin 2 users, external gamepad or even virtual gamepad will facing the xinput issue (like joystick issue) in glibc version
 - ~~VirGL in glibc version doesn't work at all~~ (it's working by using the winlator glibc with VirGL version)
+- SD card doesn't read properly in newer versions of winlator
 
 # What is the difference between bench and without bench apk? 
 - Bench is for the user that have 2 or more winlator. It's suitable for the user to compare other winlator. While, without bench is for the user that don't have/install any winlator yet.
 
 # Like my mod? 
-- If you like then give us a star for this repository. Also give us feedback or suggestions in 'pull requests' to help the development for this mod.
+- If you like then give us a star for this repository to support the development for this mod. Also give us feedback or suggestions in 'pull requests' if you have any suggestions to put in my mod.
 
 # Hate my mod or think other winlator mod are better than mine?
-- Yes. Exactly, my mod will become very worst at some device that are not fit with my mod. So you can try other winlator mod that are better than me (like afei, or bla, bla, bla). Remember, I made this winlator just for personal use only but I think it would be good if I share it to other people. But, what can I do if my winlator mod doesn't work properly in your device.
+- Yes. Exactly, my mod will become very worst at some device that are not fit with my mod. So you can try other winlator mod that are better than me (like afei, or any mod that you're prefer). Remember, I made this winlator just for personal use only but I think it would be good if I share it to other people. But, what can I do if my winlator mod doesn't work properly in your device. Or if you're really hating me that my mod are totally bad in every update day by day just leave this repository, and I don't care it all
 
 # Credits and Third-party apps
 - Ubuntu RootFs ([Focal Fossa](https://releases.ubuntu.com/focal))
@@ -68,6 +70,7 @@ For other version of winlator you can run it using `3.3COMPAT`
 - D8VK ([github.com/AlpyneDreams/d8vk](https://github.com/AlpyneDreams/d8vk))
 - CNC DDraw ([github.com/FunkyFr3sh/cnc-ddraw](https://github.com/FunkyFr3sh/cnc-ddraw))
 - ([Winlator Turnip Driver](https://github.com/K11MCH1/WinlatorTurnipDrivers))​ by K11MCH1
+- ([Box64 Proot](https://github.com/ryanfortner/box64-debs)) by ryanfortner
 
 Many thanks to [ptitSeb](https://github.com/ptitSeb) (Box86/Box64), [Danylo](https://blogs.igalia.com/dpiliaiev/tags/mesa/) (Turnip), [alexvorxx](https://github.com/alexvorxx) 
 (Mods/Tips) and others.
