@@ -11,7 +11,7 @@ Winlator@Frost is an Android application that lets you to run Windows (x86_64) a
 
 Modded by a student 17 years old from Songkhla province, Thailand.
 
-# Installation
+# Winlator@Frost Installation
 
 1. Download and install the APK (Winlator@Frost 8.0R1 V4.apk) from [GitHub Releases](https://github.com/MrPhryaNikFrosty/Winlator-Frost/releases)
 2. Launch the app and wait for the installation process to finish
@@ -27,19 +27,15 @@ Modded by a student 17 years old from Songkhla province, Thailand.
 
 ----
 
-# Useful Tips
+# Useful Tips & Features of Winlator@Frost
 
 - If you are experiencing performance issues, try changing the preset for Box86/Box64 in Container Settings -> Advanced Tab.
 - For applications that use .NET Framework, try installing Wine Mono found in Start Menu -> System Tools.
 - If some older games don't open, try adding the environment variable MESA_EXTENSION_MAX_YEAR=2003 in Container Settings -> Environment Variables.
 - Try running the games using the shortcut on the Winlator home screen, there you can define individual settings for each game.
-- If you want to hide the annoying dxvk hud, please removing this env from here
-<p align="center">
-	<img src="hide_dxvk_hud.png" width="480" height="240" alt="Winlator-Frost Hide DXVK HUD" />  
-</p>
-
+- If you want to hide the annoying dxvk hud, please untick `devinfo`, `frametimes` and `gpuload` in the environment variables inside the container settings. Or you can also delete the env `DXVK_HUD` but not recommended
 - If you want to use VirGL in winlator version (7.1 and newer), make sure you change the env of `MESA_GL_VERSION_OVERRIDE`from `3.3COMPAT`to `2.1` or `3.1COMPAT`
-For other version of winlator you can run it using `3.3COMPAT`
+For other version of winlator you can run it using `3.3COMPAT` or `4.0`
 - Enabled the `BOX64_DYNAREC_WEAKBARRIER` can improve the performance for 64 bit games
 - You can now enable `MANGOHUD` for glibc version
 - For some unity games especially to fix unity games from crashing, try use stability preset and add `-force-gfx-direct -​force-d3d11-singlethread` in the exec arguments inside the shortcut of the unity games
