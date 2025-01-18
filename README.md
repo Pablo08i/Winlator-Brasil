@@ -63,7 +63,7 @@ For other version of winlator you can run it using `3.3COMPAT` or `4.0`
 - If you like then give us a star for this repository to support the development for this mod. Also give us feedback or suggestions in 'pull requests' if you have any suggestions to put in my mod.
 
 # Hate my mod or think other winlator mod are better than mine?
-- Yes. Exactly, my mod will become very worst at some device that are not fit with my mod. So you can try other winlator mod that are better than me (like afei, or any mod that you're prefer). Remember, I made this winlator just for personal use only but I think it would be good if I share it to other people. But, what can I do if my winlator mod doesn't work properly in your device. Or if you're really hating me that my mod are totally bad in every update day by day just leave this repository, and I don't care it all
+- Yes. Exactly, my mod will become very worst at some device that are not fit with my mod. So you can try other winlator mod that are better than me (like afei, ajay, cmod, or any mod that you'd prefer). Remember, I made this winlator just for personal use only but I think it would be good if I share it to other people. But, what can I do if my winlator mod doesn't work properly in your device. Or if you're really hating me that my mod are totally bad in every update day by day just leave this repository, and I don't care it all
 
 # Credits and Third-party apps
 - Ubuntu RootFs ([Focal Fossa](https://releases.ubuntu.com/focal))
