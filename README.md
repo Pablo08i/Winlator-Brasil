@@ -37,7 +37,8 @@ Modded by a student 17 years old from Songkhla province, Thailand.
 - If you want to use VirGL in winlator version (7.1 and newer), make sure you change the env of `MESA_GL_VERSION_OVERRIDE`from `3.3COMPAT`to `2.1` or `3.1COMPAT`
 For other version of winlator you can run it using `3.3COMPAT` or `4.0`
 - Enabled the `BOX64_DYNAREC_WEAKBARRIER` can improve the performance for 64 bit games
-- You can now enable `MANGOHUD` for glibc version
+- To display low resolution games correctly, try to enabling the `Force Fullscreen` option in the shortcut settings
+- You can now enable `MANGOHUD` for glibc version, not yet for proot
 - For some unity games especially to fix unity games from crashing, try use stability preset and add `-force-gfx-direct -​force-d3d11-singlethread` in the exec arguments inside the shortcut of the unity games
 
 # System requirement for Winlator@Frost
@@ -58,6 +59,9 @@ For other version of winlator you can run it using `3.3COMPAT` or `4.0`
 # What is the difference between bench and without bench apk? 
 - Bench is for the user that have 2 or more winlator. It's suitable for the user to compare other winlator. While, without bench is for the user that don't have/install any winlator yet.
 - Bench apk are also to be used for speeding the performance of the game
+
+# Information
+This project has been in constant development since version 1.0, the current app source code is up to version 7.1, I do not update this repository frequently precisely to avoid unofficial releases before the official releases of Winlator.
 
 # Like my mod? 
 - If you like then give us a star for this repository to support the development for this mod. Also give us feedback or suggestions in 'pull requests' if you have any suggestions to put in my mod.
