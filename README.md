@@ -55,6 +55,7 @@ For other version of winlator you can run it using `3.3COMPAT` or `4.0`
 - To speed up the installers, try changing the Box64 preset to `Intermediate` in Container Settings -> Advanced Tab
 - You can now enable `MANGOHUD` for glibc version, not yet for proot
 - For some unity games especially to fix unity games from crashing, try use stability preset and add `-force-gfx-direct -​force-d3d11-singlethread` in the exec arguments inside the shortcut of the unity games
+- For some unity games, the games might not be able to launch in proot, so please try in glibc
 
 # System requirement for Winlator@Frost
 - Android - 8.0 or newer
