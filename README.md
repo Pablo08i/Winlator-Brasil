@@ -22,12 +22,22 @@ Join us in our official Discord server [Click Here](https://discord.gg/TZ3AMFhbR
 3. Now you can enjoy your favorite pc games! But please make sure that you select the renderer based on your phone chips, you can read the system requirements below to learn more
 4. You can also try out our new winlator mod glibc from the releases
 
+# Video testing of Winlator@Frost by me
 ----
 
-[![Play on Youtube](https://img.youtube.com/vi/ETYDgKz4jBQ/3.jpg)](https://www.youtube.com/watch?v=ETYDgKz4jBQ)
-[![Play on Youtube](https://img.youtube.com/vi/9E4wnKf2OsI/2.jpg)](https://www.youtube.com/watch?v=9E4wnKf2OsI)
-[![Play on Youtube](https://img.youtube.com/vi/czEn4uT3Ja8/2.jpg)](https://www.youtube.com/watch?v=czEn4uT3Ja8)
-[![Play on Youtube](https://img.youtube.com/vi/eD36nxfT_Z0/2.jpg)](https://www.youtube.com/watch?v=eD36nxfT_Z0)
+- Test on Honor X9b (SD 6 GEN 1)
+[![Play on Youtube](https://i.ytimg.com/vi_webp/g0-XafDktx0/hqdefault.webp)](https://youtu.be/g0-XafDktx0?si=x2KqbS2vvuVRDkzv)
+
+- Test on Huawei Nova 7 (Kirin 985)
+[![Play on Youtube](https://i.ytimg.com/vi_webp/XzHptfLZEpc/hqdefault.webp)](https://youtu.be/XzHptfLZEpc?si=xp4gV4pJbqmyzrYc)
+
+- Test on Honor Magic 5 (SD 8 GEN 2)
+[![Play on Youtube](https://i.ytimg.com/vi_webp/xGRzNVE6WLg/hqdefault.webp)](https://youtu.be/xGRzNVE6WLg?si=Z4tjD_rxaiJok6d4)
+
+- Test on Poco X5 (SD 695)
+[![Play on Youtube](https://i.ytimg.com/vi_webp/yQl-OPTIb3E/hqdefault.webp)](https://youtu.be/yQl-OPTIb3E?si=QcSX-oz1CfWwVmXb)
+
+- For more video tests, please head to my YouTube channel, link to my channel are in above of this repository
 
 ----
 
