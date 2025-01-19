@@ -11,6 +11,10 @@ Winlator@Frost is an Android application that lets you to run Windows (x86_64) a
 
 Modded by a student 17 years old from Songkhla province, Thailand.
 
+Subscribe My YouTube Channel [Click Here](https://youtube.com/@emuzone20?si=FUsBJ7ZmLY7Ktu1y)​
+
+Join us in our official Discord server [Click Here](https://discord.gg/TZ3AMFhbRU)​
+
 # Winlator@Frost Installation
 
 1. Download and install the APK (Winlator@Frost 8.0R1 V4.apk) from [GitHub Releases](https://github.com/MrPhryaNikFrosty/Winlator-Frost/releases)
