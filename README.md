@@ -59,7 +59,7 @@ For other version of winlator you can run it using `3.3COMPAT` or `4.0`
 
 # System requirement for Winlator@Frost
 - Android - 8.0 or newer
-- `Turnip` - For `Adreno 6xx and 7xx` only at the moment. `Adreno 8xx (8 elite, 7s gen 3), 720 (7 gen 3), and 710 (7s gen 2, 6 gen 3, 6 gen 1)` are not working. You have to use VirGL if you're using this type of GPU.
+- `Turnip` - For `Adreno 6xx and 7xx` only at the moment. `Adreno 8xx (8 elite, 7s gen 3), 720 (7 gen 3), and 710 (7s gen 2, 6 gen 3, 6 gen 1)` are not working. You have to use VirGL or Vortek if you're using this type of GPU.
 - `Vortek` - Universal, all chips will work especially for unsupported turnip GPU but for now since it's under experimental so other chips `like Mediatek, Exynos, Kirin, Unisoc, etc` it won't work. So you have to wait for future releases of winlator
 - `VirGL` - Universal, all chips `like Mediatek, Exynos, Kirin, Unisoc, etc`(include unsupport GPU of turnip adreno like in above)` might work with VirGL but you can only play DX9 games
 - `LLVMPIPE` - Use this if you want to run software apps `(not for game)`
