@@ -9,8 +9,6 @@
 
 Winlator@Frost is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64. Originally modified from [Brunodev85](https://github.com/brunodev85/Winlator)
 
-Modded by a student 17 years old from Songkhla province, Thailand.
-
 Subscribe My YouTube Channel [Click Here](https://youtube.com/@emuzone20?si=FUsBJ7ZmLY7Ktu1y)​
 
 Join us in our official Discord server [Click Here](https://discord.gg/TZ3AMFhbRU)​
@@ -71,6 +69,7 @@ For other version of winlator you can run it using `3.3COMPAT` or `4.0`
 - Odin 2 users, external gamepad or even virtual gamepad will facing the xinput issue (like joystick issue) in glibc version
 - ~~VirGL in glibc version doesn't work at all~~ (it's working by using the winlator glibc with VirGL version)
 - SD card doesn't read properly in newer versions of winlator
+- Fps limiter doesn't work in winlator 9.0
 
 # What is the difference between bench and without bench apk? 
 - Bench is for the user that have 2 or more winlator. It's suitable for the user to compare other winlator. While, without bench is for the user that don't have/install any winlator yet.
