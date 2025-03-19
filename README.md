@@ -20,7 +20,7 @@ Join us in our official Discord server [Click Here](https://discord.gg/Q74CNHJnq
 3. Now you can enjoy your favorite pc games! But please make sure that you select the renderer based on your phone chips, you can read the system requirements below to learn more
 4. You can also try out our new winlator mod glibc from the releases
 
-# Video testing of Winlator@Frost by me
+# Video testing of Winlator@Frost by me (EMUZONE0 YOUTUBE CHANNEL)
 ----
 
 - Test on Honor X9b (SD 6 GEN 1)
@@ -81,8 +81,8 @@ This project has been in constant development since version 1.0, the current app
 # Like my mod? 
 - If you like then give us a star for this repository to support the development for this mod. Also give us feedback or suggestions in 'pull requests' if you have any suggestions to put in my mod.
 
-# Hate my mod or think other winlator mod are better than mine?
-- Yes. Exactly, my mod will become very worst at some device that are not fit with my mod. So you can try other winlator mod that are better than me (like afei, ajay, cmod, or any mod that you'd prefer). Remember, I made this winlator just for personal use only but I think it would be good if I share it to other people. But, what can I do if my winlator mod doesn't work properly in your device. Or if you're really hating me that my mod are totally bad in every update day by day just leave this repository, and I don't care it all
+# Hate my mod or think my mod have a viruses or malware that can harm your device or steal your personal information?
+- If you think such, so don't use my mod and use the mod that you trusted
 
 # Credits and Third-party apps
 - Ubuntu RootFs ([Focal Fossa](https://releases.ubuntu.com/focal))
@@ -96,6 +96,7 @@ This project has been in constant development since version 1.0, the current app
 - CNC DDraw ([github.com/FunkyFr3sh/cnc-ddraw](https://github.com/FunkyFr3sh/cnc-ddraw))
 - ([Winlator Turnip Driver](https://github.com/K11MCH1/WinlatorTurnipDrivers))​ by K11MCH1
 - ([Box64 Proot](https://github.com/ryanfortner/box64-debs)) by ryanfortner
+- Some parts of the prefix are taken from ([ajay prefix](https://github.com/ajay9634/Ajay-prefix))​. Many thanks to him for providing such a useful apps that can be put in the mod
 
 Many thanks to [ptitSeb](https://github.com/ptitSeb) (Box86/Box64), [Danylo](https://blogs.igalia.com/dpiliaiev/tags/mesa/) (Turnip), [alexvorxx](https://github.com/alexvorxx) 
 (Mods/Tips) and others.
