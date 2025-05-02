@@ -15,7 +15,7 @@ Join us in our official Discord server [Click Here](https://discord.gg/Q74CNHJnq
 
 # Winlator@Frost Installation
 
-1. Download and install the APK (Winlator@Frost 10.0 V2.apk) from [GitHub Releases](https://github.com/MrPhryaNikFrosty/Winlator-Frost/releases)
+1. Download and install the APK (Winlator@Frost 10.0Final V2.apk) from [GitHub Releases](https://github.com/MrPhryaNikFrosty/Winlator-Frost/releases)
 2. Launch the app and wait for the installation process to finish
 3. Now you can enjoy your favorite pc games! But please make sure that you select the renderer based on your phone chips, you can read the system requirements below to learn more
 4. You can also try out our new winlator mod glibc (for now 7.1.3) from the releases
@@ -60,7 +60,7 @@ For other version of winlator you can run it using `3.3COMPAT` or `4.0`
 - `Turnip` - For `Adreno 6xx and 7xx` only at the moment. `Adreno 8xx (8 elite, 8s gen 4, 7s gen 3, 6 gen 4)` are not working. You have to use VirGL or Vortek if you're using this type of GPU.
 - `Vortek` - Universal, all chips will work especially for Adreno 8xx which doesn't support turnip can use this driver. This driver are also work in Mali but not all Mali are works
 - `VirGL` - Universal, all chips `like Mediatek, Exynos, Kirin, Unisoc, etc and Adreno 8xx` might work with VirGL but only DX9 games and OpenGL 3.1 below games are working
-- `LLVMPIPE` - Use this if you want to run software apps `(not for game)`
+- `LLVMPIPE` - Use this if you want to run software apps `(not for game)`, this feature are only available in winlator 7.1 releases
 
 # Known issue in Winlator@Frost
 - ~~Snapdragon 8s gen 3 `Adreno​ 735` container not starting issue~~ (now it's working)
@@ -71,20 +71,30 @@ For other version of winlator you can run it using `3.3COMPAT` or `4.0`
 - SD card doesn't read properly in newer versions of winlator
 - USB driver with OTG doesn't recognise as drives in winlator
 
-# What is the difference between bench and without bench apk? 
-- Bench is for the user that have 2 or more winlator. It's suitable for the user to compare other winlator. While, without bench is for the user that don't have/install any winlator yet.
-- Bench apk are also to be used for speeding the performance of the game
-
 # Information
 This project has been in constant development since version 1.0, the current app source code is up to version 7.1, I do not update this repository frequently precisely to avoid unofficial releases before the official releases of Winlator.
 
-# Like my mod? 
-- If you like then give us a star for this repository to support the development for this mod. Also give us feedback or suggestions in 'pull requests' if you have any suggestions to put in my mod.
-
-# Hate my mod or think my mod have a viruses or malware that can harm your device or steal your personal information?
-- If you think such, so don't use my mod and use the mod that you trusted
+# Frequently Asked Questions (FAQ)
+## Do I need to uninstall the current winlator version before installing this mod?
+- Yeah, fresh install are needed if you want to proceed to the mod to avoid corrupted system files
+## So, when the mod update released and I want to update it, do I still needed to reinstall the winlator?
+- It's highly recommended to reinstall the winlator when the mod update released, you can also directly install the new mod update but the current container from previous version can't be used, so that's why it's important to reinstall
+## I see there's 2 apk in the proot releases, so what is the difference between bench and regular apk? 
+- Bench is for the user that have 2 or more winlator. It's suitable for the user to compare other winlator. While, without bench is for the user that don't have/install any winlator yet.
+- Bench apk are also to be used for speeding the performance of the game
+## And why the bench are no longer available in glibc 7.1.3 and 10.0?
+- For your information, any custom package name included bench are not supported in glibc version, sadly glibc only supports regular apk only. If I were made it, the apk never worked
+## Help, the game doesn't work at me!
+- First, try changing the turnip or dxvk if using Snapdragon or make sure you have read the system requirement above. Secondly, try changing the box64 preset, some game need a specific preset. Or if it never worked, maybe the game are not playable yet in winlator, so wait for future updates of winlator
+## Help, my phone anti-virus detected that this winlator mod have a viruses! So is it still safe to use?
+- Never believe to the system anti-virus especially Google Play Protect and Xiaomi Anti-virus, this anti-virus actually are really sensitive to the emulation because most of all emulators detect the viruses in this anti-virus, so no need to worry. I also scanned the VirusTotal before I release the apk and it safe to use. But what is the most important is don't spread the news about malware in the winlator, if you found a malware, please contact me immediately and I will try to removed that shit
+## I want to request some features to be added in the mod, can you proceed, please?
+- I actually modified the winlator by using my phone and I still can't put some features in the winlator because it needs a pc to do that
+## So sad that you modify the mod by using phone, btw I want to give some donations to help your mod
+- I actually not ready yet to get monetized in my project that I made, you know I still below the age, and I don't have my own credit card or PayPal account to received any donations from y'all. Also I made this project is free to everyone and I want to see the users are happy and enjoyable when using my mod
 
 # Credits and Third-party apps
+- GLIBC Patches by [Termux Pacman](https://github.com/termux-pacman/glibc-packages)
 - Ubuntu RootFs ([Focal Fossa](https://releases.ubuntu.com/focal))
 - Wine ([winehq.org](https://www.winehq.org/))
 - Box86/Box64 by [ptitseb](https://github.com/ptitSeb)
