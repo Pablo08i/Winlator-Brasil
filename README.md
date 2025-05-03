@@ -19,6 +19,7 @@ Join us in our official Discord server [Click Here](https://discord.gg/Q74CNHJnq
 2. Launch the app and wait for the installation process to finish
 3. Now you can enjoy your favorite pc games! But please make sure that you select the renderer based on your phone chips, you can read the system requirements below to learn more
 4. You can also try out our new winlator mod glibc (for now 7.1.3) from the releases
+5. For older or legacy version of Winlator@Frost which are not available in Github releases can get it from [here](https://mega.nz/folder/dQtDzI7a#47pl7EQ8AWwY2jV-665ikQ)
 
 # Video testing of Winlator@Frost by me
 ----
@@ -56,10 +57,16 @@ For other version of winlator you can run it using `3.3COMPAT` or `4.0`
 - For some unity games, the games might not be able to launch in proot, so please try in glibc
 
 # System requirement for Winlator@Frost
-- Android - 8.0 or newer
-- `Turnip` - For `Adreno 6xx and 7xx` only at the moment. `Adreno 8xx (8 elite, 8s gen 4, 7s gen 3, 6 gen 4)` are not working. You have to use VirGL or Vortek if you're using this type of GPU.
-- `Vortek` - Universal, all chips will work especially for Adreno 8xx which doesn't support turnip can use this driver. This driver are also work in Mali but not all Mali are works
-- `VirGL` - Universal, all chips `like Mediatek, Exynos, Kirin, Unisoc, etc and Adreno 8xx` might work with VirGL but only DX9 games and OpenGL 3.1 below games are working
+## Device
+- Android: 8.0 or newer
+- RAM: 4 GB are minimum requirements but 6 GB are recommended
+- ROM: Any size of ROM are supported and SD Card are also supported but some type of SD Card doesn't recognize as drive in winlator
+- Architecture: at least arm64-v8a are required
+
+## Graphics Driver for device GPU
+- `Turnip` - Only for Snapdragon that has `Adreno 6xx and 7xx` only at the moment. `Adreno 8xx (8 elite, 8s gen 4, 7s gen 3, 6 gen 4)` are not working. You have to use VirGL or Vortek if you're using this type of GPU.
+- `Vortek` - Universal, all GPUs will work especially for Adreno 8xx which doesn't support turnip can use this driver. This driver are also work in Mali but not all Mali are works
+- `VirGL` - Universal, all GPUs `like Mali, PowerVR, Xclipse, etc and old Adreno or Adreno 8xx` might work with VirGL but only DX9 games and OpenGL 3.1 below games are working
 - `LLVMPIPE` - Use this if you want to run software apps `(not for game)`, this feature are only available in winlator 7.1 releases
 
 # Known issue in Winlator@Frost
