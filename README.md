@@ -64,6 +64,59 @@
 
 ---
 
+## ⚙️ Entendendo as Limitações dos Drivers (Explicação Simples)
+
+Nem todos os celulares funcionam igual com o Winlator-Brasil. Isso depende da **GPU** (placa de vídeo do celular) e do **driver**, que age como um "tradutor" entre o jogo e o aparelho.
+
+### 📌 Tipos comuns de GPU
+
+| Fabricante    | Linha de GPU         | Observações                                            |
+|---------------|----------------------|---------------------------------------------------------|
+| **Qualcomm**  | Adreno (Snapdragon) | Melhor desempenho e compatibilidade com Turnip         |
+| **ARM**       | Mali                 | Funciona com Vortek/VirGL, mas pode ter gráficos quebrados |
+| **Samsung**   | Xclipse (Exynos)     | Pode funcionar com VirGL, mas ainda instável           |
+| **MediaTek**  | Mali                 | Mesmo caso das GPUs Mali — pode ter bugs visuais       |
+
+---
+
+### 🔍 Comparando os drivers
+
+| Driver      | Como funciona |
+|-------------|---------------|
+| **Turnip**  | Muito rápido, mas só funciona bem em Adreno 6xx ou 7xx. Em Adreno 8xx, pode não funcionar direito. |
+| **Vortek**  | Compatível com quase todos os aparelhos. Funciona até em Mali, mas é mais lento que Turnip. |
+| **VirGL**   | Ideal para jogos antigos. Funciona em quase todos os celulares, mas pode travar em jogos novos. |
+| **LLVMPIPE**| Usado apenas para apps leves. Não serve para jogar. |
+
+---
+
+### 🧠 Explicando para qualquer um entender
+
+Imagine que:
+
+- O **jogo fala inglês**
+- A **GPU fala português**
+- O **driver é o tradutor**
+
+Se o tradutor não entende direito o jogo ou a GPU, tudo trava, fica feio ou nem abre. Por isso, o tipo de driver e da GPU importa tanto.
+
+---
+
+### 💡 Qual usar?
+
+- ✅ **Snapdragon com Adreno 6xx/7xx**: Use o **Turnip**
+- 🟡 **Adreno 8xx ou Mali**: Use o **Vortek**
+- 🕹️ **Jogos antigos ou celulares fracos**: Use o **VirGL**
+- 📝 **Apps leves**: Use o **LLVMPIPE**
+
+---
+
+### 📢 Lembrete
+
+Mesmo com boa configuração, alguns jogos podem não funcionar. Continue testando e compartilhe resultados com a comunidade!
+
+---
+
 ## 🐞 Problemas Conhecidos
 
 * ❌ Cartão SD pode não ser reconhecido
@@ -120,9 +173,5 @@ Agradeço muito! Mas este projeto é gratuito para todos.
 
 ## ❤️ Agradecimentos Finais
 
-Muito obrigado a toda a comunidade, testers, desenvolvedores e usuários que apoiam este mod!
+Muito obrigado a toda a comunidade, testers, desenvolvedores e usuários que apoiam este mod!  
 A jornada continua — e tudo isso só é possível graças a vocês!
-
----
-
-Se quiser, posso também gerar uma versão com Markdown renderizado ou fazer um **template visual interativo** para GitHub Pages. Deseja isso?
