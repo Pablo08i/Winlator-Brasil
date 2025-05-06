@@ -7,114 +7,99 @@
   <img src="https://img.shields.io/github/downloads/MrPhryaNikFrosty/Winlator-Frost/total" alt="Total Downloads" width="150">
 </p>
 
-Winlator Brasil is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64. Originally modified from [Brunodev85](https://github.com/brunodev85/Winlator)
+O Winlator Brasil é um aplicativo Android que permite executar aplicativos Windows (x86_64) com Wine e Box86/Box64. **Originalmente modificado de [Brunodev85](https://github.com/brunodev85/Winlator)**
 
-Subscribe My YouTube Channel [Click Here](https://youtube.com/@emuzone20?si=FUsBJ7ZmLY7Ktu1y)​
+Junte-se a nós em nosso grupo do WhatsApp [Clique aqui](https://chat.whatsapp.com/IeH3Va7W9pzFoL2Ln3ixG1)
 
-Join us in our official Discord server [Click Here](https://discord.gg/Q74CNHJnq2)​
+# Instalação do Winlator-Brasil
 
-# Winlator@Frost Installation
+1. Baixe e instale o APK (WinlatorBrasil-10.0.apk) em [GitHub Releases](EM BREVE)
+2. Abra o aplicativo e aguarde a conclusão do processo de instalação.
+3. Agora você pode aproveitar seus jogos de PC favoritos! Mas certifique-se de selecionar o renderizador com base no chip do seu telefone. Você pode ler os requisitos de sistema abaixo para saber mais.
 
-1. Download and install the APK (Winlator@Frost 10.0Final V2.apk) from [GitHub Releases](https://github.com/MrPhryaNikFrosty/Winlator-Frost/releases)
-2. Launch the app and wait for the installation process to finish
-3. Now you can enjoy your favorite pc games! But please make sure that you select the renderer based on your phone chips, you can read the system requirements below to learn more
-4. You can also try out our new winlator mod glibc (for now 7.1.3) from the releases
-5. For older or legacy version of Winlator@Frost which are not available in Github releases can get it from [here](https://mega.nz/folder/dQtDzI7a#47pl7EQ8AWwY2jV-665ikQ)
-
-# Video testing of Winlator@Frost by me
+# Teste em vídeo do Winlator-Brasil por mim.
 ----
 
-- Test on Honor X9b (SD 6 GEN 1)
-[![Play on Youtube](https://i.ytimg.com/vi_webp/g0-XafDktx0/hqdefault.webp)](https://youtu.be/g0-XafDktx0?si=x2KqbS2vvuVRDkzv)
+- ​​Teste no EM BREVE (EM BREVE)
+[![Reproduzir em Youtube](WM BREVE)](EM BREVE)
 
-- Test on Huawei Nova 7 (Kirin 985)
-[![Play on Youtube](https://i.ytimg.com/vi_webp/XzHptfLZEpc/hqdefault.webp)](https://youtu.be/XzHptfLZEpc?si=xp4gV4pJbqmyzrYc)
-
-- Test on Honor Magic 5 (SD 8 GEN 2)
-[![Play on Youtube](https://i.ytimg.com/vi_webp/xGRzNVE6WLg/hqdefault.webp)](https://youtu.be/xGRzNVE6WLg?si=Z4tjD_rxaiJok6d4)
-
-- Test on Poco X5 (SD 695)
-[![Play on Youtube](https://i.ytimg.com/vi_webp/yQl-OPTIb3E/hqdefault.webp)](https://youtu.be/yQl-OPTIb3E?si=QcSX-oz1CfWwVmXb)
-
-- For more video tests, please head to my YouTube channel, link to my channel are in above of this repository
+- Para mais testes em vídeo, acesse meu canal do YouTube. O link para o meu canal está acima deste repositório.
 
 ----
 
-# Useful Tips & Features of Winlator@Frost
+# Dicas e Recursos Úteis do Winlator-Brasil
 
-- If you are experiencing performance issues, try changing the preset for Box86/Box64 in Container Settings -> Advanced Tab.
-- For applications that use .NET Framework, try installing Wine Mono found in Start Menu -> System Tools.
-- If some older games don't open, try adding the environment variable MESA_EXTENSION_MAX_YEAR=2003 in Container Settings -> Environment Variables.
-- Try running the games using the shortcut on the Winlator home screen, there you can define individual settings for each game.
-- If you want to hide the annoying dxvk hud, please untick `devinfo`, `frametimes` and `gpuload` in the environment variables inside the container settings. Or you can also delete the env `DXVK_HUD` but not recommended
-- If you want to use VirGL in winlator version (7.1 and newer), make sure you change the env of `MESA_GL_VERSION_OVERRIDE`from `3.3COMPAT`to `2.1` or `3.1COMPAT`
-For other version of winlator you can run it using `3.3COMPAT` or `4.0`
-- Enabled the `BOX64_DYNAREC_WEAKBARRIER` can improve the performance for 64 bit games
-- To display low resolution games correctly, try to enabling the `Force Fullscreen` option in the shortcut settings
-- To speed up the installers, try changing the Box64 preset to `Intermediate` in Container Settings -> Advanced Tab
-- You can now enable `MANGOHUD` for glibc version, not yet for proot
-- For some unity games especially to fix unity games from crashing, try use stability preset and add `-force-gfx-direct -​force-d3d11-singlethread` in the exec arguments inside the shortcut of the unity games
-- For some unity games, the games might not be able to launch in proot, so please try in glibc
+- Se estiver com problemas de desempenho, tente alterar a predefinição para Box86/Box64 em Configurações do Contêiner -> Avançado Guia.
+- Para aplicativos que utilizam .NET Framework, tente instalar o Wine Mono, disponível no Menu Iniciar -> Ferramentas do Sistema.
+- Se alguns jogos mais antigos não abrirem, tente adicionar a variável de ambiente MESA_EXTENSION_MAX_YEAR=2003 em Configurações do Contêiner -> Variáveis ​​de Ambiente.
+- Tente executar os jogos usando o atalho na tela inicial do Winlator, onde você pode definir configurações individuais para cada jogo.
+- Se quiser ocultar o irritante HUD do dxvk, desmarque `devinfo`, `frametimes` e `gpuload` nas variáveis ​​de ambiente dentro das configurações do contêiner. Ou você também pode excluir o ambiente `DXVK_HUD`, mas isso não é recomendado.
+- Se você quiser usar VirGL na versão do Winlator (7.1 e posteriores), certifique-se de alterar o ambiente de `MESA_GL_VERSION_OVERRIDE` de `3.3COMPAT` para `2.1` ou `3.1COMPAT`.
+Para outras versões do Winlator, você pode executá-lo usando `3.3COMPAT` ou `4.0`.
+- Habilitar o `BOX64_DYNAREC_WEAKBARRIER` pode melhorar o desempenho de jogos de 64 bits.
+- Para exibir jogos de baixa resolução corretamente, tente habilitar a opção `Forçar Tela Cheia` nas configurações de atalho.
+- Para acelerar os instaladores, tente alterar a predefinição do Box64 para `Intermediário` em Configurações do Contêiner -> Guia Avançado.
+- Agora você pode habilitar `MANGOHUD` para a versão glibc, mas ainda não para a versão proot.
+- Para alguns jogos Unity, especialmente para corrigir travamentos, tente usar a predefinição de estabilidade e adicionar `-force-gfx-direct -​force-d3d11-singlethread` nos argumentos exec dentro do atalho dos jogos Unity
+- Para alguns jogos Unity, eles podem não ser executados em root, então tente em glibc
 
-# System requirement for Winlator@Frost
-## Device
-- Android: 8.0 or newer
-- RAM: 4 GB are minimum requirements but 6 GB are recommended
-- ROM: Any size of ROM are supported and SD Card are also supported but some type of SD Card doesn't recognize as drive in winlator
-- Architecture: at least arm64-v8a are required
+# Requisitos do sistema para Winlator-Brasil
+## Dispositivo
+- Android: 8.0 ou mais recente
+- RAM: 4 GB são os requisitos mínimos, mas 6 GB são recomendados
+- ROM: Qualquer tamanho de ROM é suportado e cartões SD também são suportados, mas alguns tipos de cartão SD não são reconhecidos como unidade no Winlator
+- Arquitetura: pelo menos arm64-v8a são necessários
 
-## Graphics Driver for device GPU
-- `Turnip` - Only for Snapdragon that has `Adreno 6xx and 7xx` only at the moment. `Adreno 8xx (8 elite, 8s gen 4, 7s gen 3, 6 gen 4)` are not working. You have to use VirGL or Vortek if you're using this type of GPU.
-- `Vortek` - Universal, all GPUs will work especially for Adreno 8xx which doesn't support turnip can use this driver. This driver are also work in Mali but not all Mali are works
-- `VirGL` - Universal, all GPUs `like Mali, PowerVR, Xclipse, etc and old Adreno or Adreno 8xx` might work with VirGL but only DX9 games and OpenGL 3.1 below games are working
-- `LLVMPIPE` - Use this if you want to run software apps `(not for game)`, this feature are only available in winlator 7.1 releases
+## Driver gráfico para a GPU do dispositivo
+- `Turnip` - Somente para Snapdragon que possui `Adreno 6xx e 7xx` no momento. `Adreno 8xx (8 elite, 8s gen 4, 7s gen 3, 6 gen 4)` não está funcionando. Você precisa usar VirGL ou Vortek se estiver usando este tipo de GPU.
+- `Vortek` - Universal, todas as GPUs funcionam, especialmente com Adreno 8xx, que não suporta Turnip. Este driver também funciona no Mali, mas nem todo o Mali funciona.
+- `VirGL` - Universal, todas as GPUs, como Mali, PowerVR, Xclipse, etc., e Adreno antigo ou Adreno 8xx, podem funcionar com VirGL, mas apenas jogos DX9 e OpenGL 3.1 anteriores funcionam.
+- `LLVMPIPE` - Use este driver se quiser executar aplicativos de software `(não para jogos)`. Este recurso está disponível apenas nas versões do Winlator 7.1.
 
-# Known issue in Winlator@Frost
-- ~~Snapdragon 8s gen 3 `Adreno​ 735` container not starting issue~~ (now it's working)
-- ~~Some game in Snapdragon 8 gen 3 may not working or have a performance hit~~ (try change turnip version)
-- ~~Some game have a xinput issue which virtual gamepad are not working~~ (solved by using 8.0)
-- ~~Odin 2 users, external gamepad or even virtual gamepad will facing the xinput issue (like joystick issue) in glibc version~~ (try change preferred input api to xinput)
-- ~~VirGL in glibc version doesn't work at all~~ (it's working by using the winlator glibc with VirGL version)
-- SD card doesn't read properly in newer versions of winlator
-- USB driver with OTG doesn't recognise as drives in winlator
+# Problema conhecido no Winlator-Brasil
+- ~~Problema de inicialização do contêiner `Adreno​ 735` no Snapdragon 8s gen 3~~ (agora está funcionando)
+- ~~Alguns jogos no Snapdragon 8 gen 3 podem não funcionar ou apresentar queda de desempenho~~ (tente alterar a versão do Turnip)
+- ~~Alguns jogos apresentam um problema com o Xinput, com o controle virtual não funcionando~~ (resolvido usando a versão 8.0)
+- ~~Usuários do Odin 2, controles externos ou até mesmo controles virtuais, enfrentarão o problema com o Xinput (como o problema do joystick) na versão glibc~~ (tente alterar a API de entrada preferencial para Xinput)
+- ~~VirGL na versão glibc não funciona de jeito nenhum~~ (está funcionando usando a glibc do Winlator com a versão VirGL)
+- O cartão SD não lê corretamente em versões mais recentes do Winlator
+- O driver USB com OTG não reconhece as unidades no Winlator
 
-# Information
-This project has been in constant development since version 1.0, the current app source code is up to version 7.1, I do not update this repository frequently precisely to avoid unofficial releases before the official releases of Winlator.
+# Informações
+Este projeto está em constante desenvolvimento desde a versão 1.0. O código-fonte atual do aplicativo é da versão 7.1. Não atualizo este repositório com frequência, justamente para evitar lançamentos não oficiais antes dos lançamentos oficiais do Winlator.
 
-# Frequently Asked Questions (FAQ)
-## Do I need to uninstall the current winlator version before installing this mod?
-- Yeah, fresh install are needed if you want to proceed to the mod to avoid corrupted system files
-## So, when the mod update released and I want to update it, do I still needed to reinstall the winlator?
-- It's highly recommended to reinstall the winlator when the mod update released, you can also directly install the new mod update but the current container from previous version can't be used, so that's why it's important to reinstall
-## I see there's 2 apk in the proot releases, so what is the difference between bench and regular apk? 
-- Bench is for the user that have 2 or more winlator. It's suitable for the user to compare other winlator. While, without bench is for the user that don't have/install any winlator yet.
-- Bench apk are also to be used for speeding the performance of the game
-## And why the bench are no longer available in glibc 7.1.3 and 10.0?
-- For your information, any custom package name included bench are not supported in glibc version, sadly glibc only supports regular apk only. If I were made it, the apk never worked
-## Help, the game doesn't work at me!
-- First, try changing the turnip or dxvk if using Snapdragon or make sure you have read the system requirement above. Secondly, try changing the box64 preset, some game need a specific preset. Or if it never worked, maybe the game are not playable yet in winlator, so wait for future updates of winlator
-## Help, my phone anti-virus detected that this winlator mod have a viruses! So is it still safe to use?
-- Never believe to the system anti-virus especially Google Play Protect and Xiaomi Anti-virus, this anti-virus actually are really sensitive to the emulation because most of all emulators detect the viruses in this anti-virus, so no need to worry. I also scanned the VirusTotal before I release the apk and it safe to use. But what is the most important is don't spread the news about malware in the winlator, if you found a malware, please contact me immediately and I will try to removed that shit
-## I want to request some features to be added in the mod, can you proceed, please?
-- I actually modified the winlator by using my phone and I still can't put some features in the winlator because it needs a pc to do that
-## So sad that you modify the mod by using phone, btw I want to give some donations to help your mod
-- I actually not ready yet to get monetized in my project that I made, you know I still below the age, and I don't have my own credit card or PayPal account to received any donations from y'all. Also I made this project is free to everyone and I want to see the users are happy and enjoyable when using my mod
+# Perguntas Frequentes (FAQ)
+## Preciso desinstalar a versão atual do Winlator antes de instalar este mod?
+- Sim, uma nova instalação é necessária se você quiser prosseguir com o mod para evitar arquivos de sistema corrompidos.
+## Então, quando a atualização do mod for lançada e eu quiser atualizá-la, ainda preciso reinstalar o Winlator?
+- É altamente recomendável reinstalar o Winlator quando a atualização do mod for lançada. Você também pode instalar diretamente a nova atualização do mod, mas o contêiner atual da versão anterior não pode ser usado, por isso é importante reinstalar.
+## Vejo que há 2 apks nas versões do Proot, então qual é a diferença entre o Bench e o apk normal?
+- O Bench é para usuários que possuem 2 ou mais Winlator. É adequado para o usuário comparar outros Winlator. Já sem o Bench, é para usuários que ainda não possuem/instalaram o Winlator.
+- Os APKs do Bench também podem ser usados ​​para acelerar o desempenho do jogo.
+## Socorro, o jogo não funciona para mim!
+- Primeiro, tente alterar o Turnip ou o DXVK se estiver usando o Snapdragon ou certifique-se de ter lido os requisitos de sistema acima. Em segundo lugar, tente alterar a predefinição do Box64; alguns jogos precisam de uma predefinição específica. Ou, se nunca funcionou, talvez o jogo ainda não esteja jogável no Winlator, então aguarde futuras atualizações do Winlator.
+## Socorro, o antivírus do meu telefone detectou que este mod do Winlator contém vírus! Então, ainda é seguro usá-lo?
+- Nunca confie nos antivírus do sistema, especialmente o Google Play Protect e o Xiaomi Anti-virus. Esses antivírus são realmente sensíveis à emulação, pois a maioria dos emuladores detecta vírus neles, então não se preocupe. Também fiz uma varredura no VirusTotal antes de lançar o apk e ele é seguro para uso. Mas o mais importante é não espalhar notícias sobre malware no Winlator. Se você encontrar algum malware, entre em contato comigo imediatamente e tentarei removê-lo.
+## Quero solicitar a adição de alguns recursos ao mod. Você pode prosseguir, por favor?
+- Na verdade, modifiquei o Winlator usando meu celular e ainda não consigo adicionar alguns recursos porque ele precisa de um PC para fazer isso.
+## É uma pena que você tenha modificado o mod usando o celular. Aliás, quero fazer algumas doações para ajudar o seu mod.
+- Na verdade, ainda não estou pronto para receber dinheiro pelo projeto que criei. Sabe, ainda sou menor de idade e não tenho cartão de crédito nem conta no PayPal para receber doações de vocês. Também criei este projeto gratuitamente para todos e quero ver os usuários felizes e se divertindo ao usar meu mod.
 
-# Credits and Third-party apps
-- GLIBC Patches by [Termux Pacman](https://github.com/termux-pacman/glibc-packages)
-- Ubuntu RootFs ([Focal Fossa](https://releases.ubuntu.com/focal))
+# Créditos e aplicativos de terceiros
+- Patches GLIBC por [Termux Pacman](https://github.com/termux-pacman/glibc-packages)
+- RootFS do Ubuntu ([Focal Fossa](https://releases.ubuntu.com/focal))
 - Wine ([winehq.org](https://www.winehq.org/))
-- Box86/Box64 by [ptitseb](https://github.com/ptitSeb)
+- Box86/Box64 por [ptitseb](https://github.com/ptitSeb)
 - PRoot ([proot-me.github.io](https://proot-me.github.io))
 - Mesa3D (Turnip, Zink, VirGL) ([mesa3d.org](https://www.mesa3d.org))
 - DXVK ([github.com/doitsujin/dxvk](https://github.com/doitsujin/dxvk))
 - DXVK gplasync ([gitlab.com/Ph42oN/dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync))​
 - D8VK ([github.com/AlpyneDreams/d8vk](https://github.com/AlpyneDreams/d8vk))
 - CNC DDraw ([github.com/FunkyFr3sh/cnc-ddraw](https://github.com/FunkyFr3sh/cnc-ddraw))
-- ([Winlator Turnip Driver](https://github.com/K11MCH1/WinlatorTurnipDrivers))​ by K11MCH1
-- ([Box64 Proot](https://github.com/ryanfortner/box64-debs)) by ryanfortner
-- Some parts of the prefix are taken from ([ajay prefix](https://github.com/ajay9634/Ajay-prefix))​. Many thanks to him for providing such a useful apps that can be put in the mod
+- ([Winlator Turnip Driver](https://github.com/K11MCH1/WinlatorTurnipDrivers))​ por K11MCH1
+- ([Box64 Proot](https://github.com/ryanfortner/box64-debs)) por ryanfortner
+- Algumas partes do prefixo foram retiradas de ([ajay prefix](https://github.com/ajay9634/Ajay-prefix))​. Muito obrigado a ele por fornecer aplicativos tão úteis que podem ser incluídos no mod.
 
-Many thanks to [ptitSeb](https://github.com/ptitSeb) (Box86/Box64), [Danylo](https://blogs.igalia.com/dpiliaiev/tags/mesa/) (Turnip), [alexvorxx](https://github.com/alexvorxx) 
-(Mods/Tips) and others.
-Thank you to all the people who believe in this project.
+Muito obrigado a [ptitSeb](https://github.com/ptitSeb) (Box86/Box64), [Danylo](https://blogs.igalia.com/dpiliaiev/tags/mesa/) (Turnip), [alexvorxx](https://github.com/alexvorxx)
+(Mods/Dicas) e outros.
+Obrigado a todos que acreditam neste projeto.
