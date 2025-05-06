@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" width="376" height="128" alt="Winlator-Brasil Logo" />
+  <img src="logo.png" width="376" height="178" alt="Winlator-Brasil Logo" />
 </p>
 
 <h1 align="center">Winlator-Brasil</h1>
