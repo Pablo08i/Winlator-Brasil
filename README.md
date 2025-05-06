@@ -3,9 +3,6 @@
 </p>
 
 # Winlator-Brasil
-#<p align="left">
-#  <img src="https://img.shields.io/github/downloads/MrPhryaNikFrosty/Winlator-Frost/total" alt="Total Downloads" width="150">
-#</p>
 
 O Winlator Brasil é um aplicativo Android que permite executar aplicativos Windows (x86_64) com Wine e Box86/Box64. **Originalmente modificado de [Brunodev85](https://github.com/brunodev85/Winlator)**
 
