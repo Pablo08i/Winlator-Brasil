@@ -1,13 +1,13 @@
 <p align="center">
-	<img src="logo.png" width="376" height="128" alt="Winlator-Frost Logo" />  
+	<img src="logo.png" width="376" height="128" alt="Winlator-Brasil Logo" />  
 </p>
 
-# Winlator@Frost
+# Winlator-Brasil
 <p align="left">
   <img src="https://img.shields.io/github/downloads/MrPhryaNikFrosty/Winlator-Frost/total" alt="Total Downloads" width="150">
 </p>
 
-Winlator@Frost is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64. Originally modified from [Brunodev85](https://github.com/brunodev85/Winlator)
+Winlator Brasil is an Android application that lets you to run Windows (x86_64) applications with Wine and Box86/Box64. Originally modified from [Brunodev85](https://github.com/brunodev85/Winlator)
 
 Subscribe My YouTube Channel [Click Here](https://youtube.com/@emuzone20?si=FUsBJ7ZmLY7Ktu1y)​
 
