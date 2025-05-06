@@ -167,7 +167,7 @@ Agradeço muito! Mas este projeto é gratuito para todos.
 * **Wine**: [winehq.org](https://www.winehq.org)
 * **Mesa3D / Turnip / VirGL**: [mesa3d.org](https://www.mesa3d.org)
 * **DXVK**: [doitsujin](https://github.com/doitsujin/dxvk)
-* **Outros contribuidores**: [ajay9634](https://github.com/ajay9634), [ryanfortner](https://github.com/ryanfortner), [Ph42oN](https://gitlab.com/Ph42oN/dxvk-gplasync), [AlpyneDreams](https://github.com/AlpyneDreams/d8vk), [K11MCH1](https://github.com/K11MCH1/WinlatorTurnipDrivers)
+* **Outros contribuidores**: [afeimod](https://github.com/afeimod/), [MrPhryaNikFrosty](https://github.com/MrPhryaNikFrosty), [ajay9634](https://github.com/ajay9634), [ryanfortner](https://github.com/ryanfortner), [Ph42oN](https://gitlab.com/Ph42oN/dxvk-gplasync), [AlpyneDreams](https://github.com/AlpyneDreams/d8vk), [K11MCH1](https://github.com/K11MCH1/WinlatorTurnipDrivers)
 
 ---
 
