@@ -4,7 +4,7 @@
 
 <h1 align="center">Winlator-Brasil</h1>
 <p align="center"><strong>Mod brasileiro do Winlator, adaptado e mantido com foco em desempenho, compatibilidade e acessibilidade.</strong></p>
-
+<p align="center"><strong>Feito por Furulipo Games, Rhustoxx e Mpjsilvaa</strong></p>
 <p align="center">
   🙏 Homenagem especial ao criador original: <a href="https://github.com/brunodev85">brunodev85</a>  
 </p>
