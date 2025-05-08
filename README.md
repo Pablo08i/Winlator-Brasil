@@ -17,7 +17,7 @@
 
 ## 📦 Instalação
 
-1. Baixe o APK mais recente em [GitHub Releases](#) *(disponível em breve)*
+1. Baixe o APK mais recente em [GitHub Releases](#)
 2. Instale o aplicativo no seu Android.
 3. Aguarde a conclusão da instalação inicial.
 4. Selecione o renderizador de acordo com o seu chip — veja os requisitos abaixo.
