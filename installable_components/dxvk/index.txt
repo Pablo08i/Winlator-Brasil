@@ -26,3 +26,8 @@ dxvk-2.6.1.1.tzst
 dxvk-2.6.2.tzst
 dxvk-78.11.tzst
 dxvk-78.9.tzst
+dxvk-2.5.2.gpla.tzst
+dxvk-2.5.2-gplasync.tzst
+dxvk-2.4-gplasync.tzst
+dxvk-1.10.3-async.tzst
+dxvk-2.5.1.2-gplasync.tzst
