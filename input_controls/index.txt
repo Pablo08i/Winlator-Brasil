@@ -1,32 +1,57 @@
 Alien Versus Predator.icp
 Alpha Protocol.icp
+ASSASSINS CREED.icp
+Baldi's Basics.icp
+Besiege.icp
 Bioshock.icp
 Call of Juarez Gunslinger.icp
+CLOS2.icp
 Cyber Shadow.icp
 Dark Souls 2.icp
+DC.icp
 Deus Ex Human Revolution.icp
 Divinity 2 DC.icp
+DMC4.icp
+DOW2.icp
 Drakensang.icp
 Driver Parallel Lines.icp
 Fallout 3.icp
+Far Cry 3.icp
 Far Cry 4.icp
+Far Cry.icp
 Final Fantasy 8.icp
 Final Fantasy Type-0.icp
 FlatOut 2.icp
+Flatout Games.icp
+FPS.icp
 Front Mission Evolved.icp
 Gravity Circuit.icp
 GTA 5.icp
+Hades.icp
+Half-Life 2.icp
 Hitman 2.icp
 IGI 2.icp
 Infernal.icp
 La Mulana.icp
+Lego Games.icp
+Lego star wars TCS 2.icp
+Lego star wars TCS.icp
 Marvel Ultimate Alliance.icp
 Mass Effect 2.icp
 Metro 2033.icp
+mostly.icp
+NFSHP (ready2play).icp
+NFSMW.icp
 Oblivion.icp
+Outlast 1.icp
+PES - Pro Evolution Soccer.icp
+Postal 2.icp
 Prey.icp
+Prince of Persia Forgotten Sands.icp
 Psychonauts.icp
 Quake 4.icp
+Racing (V2).icp
+Racing.icp
 RAGE.icp
 Rayman 3.icp
 Risen 2.icp
@@ -34,20 +59,34 @@ Second Sight.icp
 Shovel Knight.icp
 Singularity.icp
 Skyrim.icp
+SLIME RANCHER.icp
 Sonic Generations.icp
 Sonic Mania.icp
 Spiderman Shattered Dimensions.icp
 Stalker CS.icp
+STALKER SOC.icp
+stalker.icp
 Star Wars Jedi Knight 2.icp
+StarCraft.icp
 SteamWorld Dig 2.icp
 Sunset Overdrive.icp
 The Alliance Alive.icp
 The Forest.icp
 The Saboteur.icp
+Tomb Raider Anniversary.icp
 Turok 2.icp
 Turok Evolution.icp
 Ultima Underworld.icp
+Ultra Street Fighter IV.icp
 Unepic.icp
+Universal+Numlock.icp
+Untitled Goose Game.icp
+Virtual Gamepad V2.icp
+Virtual Keyboard.icp
 Wolfenstein.icp
 Xanadu Next.icp
+Xbox controller V2.icp
+Xbox controller.icp
+XHYN (C01).icp
+XHYN (C02).icp
 Ys Origin.icp
